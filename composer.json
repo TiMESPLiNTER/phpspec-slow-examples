@@ -1,0 +1,23 @@
+{
+  "name": "timesplnter/phpspec-slow-examples",
+  "license": "MIT",
+  "description": "Report slow examples that exceed a certain threshold",
+  "keywords": [
+    "phpspec",
+    "slow",
+    "report",
+    "test",
+    "tests",
+    "spec"
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "phpspec/phpspec": "^6.0 || ^7.0",
+    "symfony/stopwatch": "^5.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Timesplinter\\PhpSpec\\SlowExamples\\": "src/"
+    }
+  }
+}
