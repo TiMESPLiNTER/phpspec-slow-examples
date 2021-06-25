@@ -69,7 +69,7 @@ final class SlowExamplesListener implements EventSubscriberInterface
             ));
 
             foreach ($this->slowExamples as $slowExample => $duration) {
-                $this->consoleIO->writeln(sprintf(' - %s: <warning>%dms</warning>', $slowExample, $duration));
+                $this->consoleIO->writeln(sprintf(' - %s: <comment>%dms</comment>', $slowExample, $duration));
             }
 
             $this->slowExamples = [];
