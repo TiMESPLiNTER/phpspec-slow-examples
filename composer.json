@@ -1,5 +1,5 @@
 {
-  "name": "timesplnter/phpspec-slow-examples",
+  "name": "timesplinter/phpspec-slow-examples",
   "license": "MIT",
   "description": "Report slow examples that exceed a certain threshold",
   "keywords": [
