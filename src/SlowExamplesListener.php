@@ -11,7 +11,7 @@ use PhpSpec\Loader\Node\ExampleNode;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\Stopwatch\Stopwatch;
 
-final class SlowExampleListener implements EventSubscriberInterface
+final class SlowExamplesListener implements EventSubscriberInterface
 {
     private Stopwatch $stopwatch;
 
