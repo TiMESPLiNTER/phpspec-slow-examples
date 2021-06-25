@@ -9,7 +9,7 @@ Install using composer:
 $ composer require timesplinter/phpspec-slow-examples
 ```
 
-Add the new installed extension to your `phpspec.yml` and define a threshold:
+Add the newly installed extension to your `phpspec.yml` and define a threshold:
 
 ```yaml
 # ...
